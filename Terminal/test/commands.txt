@@ -1,0 +1,93 @@
+Last login: Tue Jun  1 18:32:41 on ttys000
+MacBook-Pro-de-Nadia:~ bea$ pwd
+/Users/bea
+MacBook-Pro-de-Nadia:~ bea$ ls
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+bea.disena@gmail.com Creative Cloud Files
+objc.scan
+test
+MacBook-Pro-de-Nadia:~ bea$ cd desktop
+MacBook-Pro-de-Nadia:desktop bea$ ls
+176322318_1549286555278990_1832894368746736032_n.jpg
+4rg,     b       8
+CUADROS PAPA
+CUENTAS
+Captura de pantalla 2021-04-29 a la(s) 21.56.40.png
+Captura de pantalla 2021-05-13 a la(s) 19.34.16.png
+Captura de pantalla 2021-05-21 a la(s) 21.25.21.png
+Captura de pantalla 2021-06-01 a la(s) 17.50.34.png
+DEMANDA CAE
+DOCUMENTOS FAMILIA
+DOCUMENTOS PERSONALES
+ESTIBALIZ
+ICONOS
+INKPRINT
+JUICIOS
+LIBROS
+LISTADO-DE-PRECIOS-PORTAL-ROPA-EMPRESAS.pdf
+MARKETING Y DISEÑO
+NEXT U
+PROGRAMADORAS
+PROGRAMAS
+SOPORTES PUBLICITARIOS
+TALENTO DIGITAL
+TODO FIESTAS LISTA DE PRECIOS.xlsx
+TTRASO 435.pdf
+TUNELES SANITIZADORES MAXMA.pdf
+VECTORES
+hqcc
+mock up
+MacBook-Pro-de-Nadia:desktop bea$ mkdir test
+MacBook-Pro-de-Nadia:desktop bea$ cd test
+MacBook-Pro-de-Nadia:test bea$ touch index.html
+MacBook-Pro-de-Nadia:test bea$ touch style.css
+MacBook-Pro-de-Nadia:test bea$ touch commands.txt
+MacBook-Pro-de-Nadia:test bea$ ls
+commands.txt	index.html	style.css
+MacBook-Pro-de-Nadia:test bea$ cp index.html index_2.html
+MacBook-Pro-de-Nadia:test bea$ ls
+commands.txt	index.html	index_2.html	style.css
+MacBook-Pro-de-Nadia:test bea$ cd.
+-bash: cd.: command not found
+MacBook-Pro-de-Nadia:test bea$ pwd
+/Users/bea/desktop/test
+MacBook-Pro-de-Nadia:test bea$ cd .
+MacBook-Pro-de-Nadia:test bea$ pwd
+/Users/bea/desktop/test
+MacBook-Pro-de-Nadia:test bea$ cd ..
+MacBook-Pro-de-Nadia:desktop bea$ pwd
+/Users/bea/desktop
+MacBook-Pro-de-Nadia:desktop bea$ mkdir destino
+MacBook-Pro-de-Nadia:desktop bea$ cd ..
+MacBook-Pro-de-Nadia:~ bea$ pwd
+/Users/bea
+MacBook-Pro-de-Nadia:~ bea$ cd desktop
+MacBook-Pro-de-Nadia:desktop bea$ cd test
+MacBook-Pro-de-Nadia:test bea$ ls
+commands.txt	index.html	index_2.html	style.css
+MacBook-Pro-de-Nadia:test bea$ mv index_2.html /Users/bea/desktop/destino
+MacBook-Pro-de-Nadia:test bea$ ls
+commands.txt	index.html	style.css
+MacBook-Pro-de-Nadia:test bea$ rm style.css
+MacBook-Pro-de-Nadia:test bea$ ls
+commands.txt	index.html
+MacBook-Pro-de-Nadia:test bea$ cd ..
+MacBook-Pro-de-Nadia:desktop bea$ cd destino
+MacBook-Pro-de-Nadia:destino bea$ ls
+index_2.html
+MacBook-Pro-de-Nadia:destino bea$ cd ..
+MacBook-Pro-de-Nadia:desktop bea$ rm -rf destino
+MacBook-Pro-de-Nadia:desktop bea$ cd test
+MacBook-Pro-de-Nadia:test bea$ ls
+commands.txt	index.html
+MacBook-Pro-de-Nadia:test bea$ 
