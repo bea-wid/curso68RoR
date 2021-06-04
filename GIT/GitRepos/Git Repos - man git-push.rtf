@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 \CocoaLigature0 Last login: Fri Jun  4 01:16:40 on ttys000\
+MacBook-Pro-de-Nadia:~ bea$ man git-push\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+           that are not explicitly intended to be shared but can be used to\
+           optimize the transfer if the peer also has them. The attacker\
+           chooses an object ID X to steal and sends a ref to X, but isn't\
+           required to send the content of X because the victim already has\
+           it. Now the victim believes that the attacker has X, and it sends\
+           the content of X back to the attacker later. (This attack is most\
+           straightforward for a client to perform on a server, by creating a\
+           ref to X in the namespace the client has access to and then\
+           fetching it. The most likely way for a server to perform it on a\
+           client is to "merge" X into a public branch and hope that the user\
+           does additional work on this branch and pushes it back to the\
+           server without noticing the merge.)\
+\
+        2. As in #1, the attacker chooses an object ID X to steal. The victim\
+           sends an object Y that the attacker already has, and the attacker\
+           falsely claims to have X and not Y, so the victim sends Y as a\
+           delta against X. The delta reveals regions of X that are similar to\
+           Y to the attacker.\
+\
+
+\f1\b GIT
+\f0\b0 \
+       Part of the 
+\f1\b git
+\f0\b0 (1) suite\
+\
+Git 2.16.3                        03/22/2018                       GIT-PUSH(1)\
+\cf3 \cb2 (END)\cf2 \cb3 \
+}
