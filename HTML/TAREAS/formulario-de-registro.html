@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Clase 67</title>
+</head>
+
+<body>
+    <div>
+        <form action="/" method="POST">
+            <!--input ingreso de texto o información-->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <!--input de password o contraseña-->
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <br>
+            <!--input radio para seleccionar varios opciones -->
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="masculino" value="masculino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="femenino" name="femenino" value="femenino">
+            <label for="otro">Otro</label>
+            <input type="radio" name="otro" id="otro" value="otro">
+            <br>
+            <!--Escribir texto Textarea-->
+            <h3>Una breve descripción de ti:</h3>
+            <textarea name="description" id="" cols="40" rows="10"></textarea>
+            <br>
+            <!--Meú desplegable-->
+            <p>Lenguaje Favorito</p>
+            <select name="lenguaje" id="">
+                <option value="HTML">HTML</option>
+                <option value="Css">Css</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="RoR">RoR</option>
+            </select>
+            <br>
+            <!--Botón enviar-->
+            <input type="button" value="Enviar...">
+
+        </form>
+    </div>
+</body>
